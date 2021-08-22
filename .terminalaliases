@@ -13,4 +13,4 @@ alias pmig='python manage.py migrate'
 alias pmmig='python manage.py makemigrations'
 alias runfront='cd ./frontend && quasar dev'
 alias nxlog="sudo cat /var/log/nginx/error.log"
-
+alias mircodownload="curl https://getmic.ro | bash && sudo mv micro /usr/bin"
