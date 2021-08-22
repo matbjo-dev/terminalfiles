@@ -1,0 +1,16 @@
+alias zshconfig="nano ~/.zshrc"
+alias ohmyzsh="nano ~/.oh-my-zsh"
+alias pm="python manage.py"
+alias pmr="python manage.py runserver"
+alias home='cd ~'cc
+alias root='cd /'
+alias g='git'
+alias com='git commit -m'
+alias all='git add .'
+alias qd='cd ./frontend && quasar dev && cd -'
+alias reload='source ~/.zshrc'
+alias pmig='python manage.py migrate'
+alias pmmig='python manage.py makemigrations'
+alias runfront='cd ./frontend && quasar dev'
+alias nxlog="sudo cat /var/log/nginx/error.log"
+
